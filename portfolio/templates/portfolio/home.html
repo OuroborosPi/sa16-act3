@@ -1,6 +1,13 @@
 {% load static %}
 
-<!-- ... head elements ... -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to My Professional Portfolio</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body>
 <div class="home-container">
   <header class="home-header">
     <h1>Welcome to My Professional Portfolio</h1>
@@ -29,3 +36,5 @@
     <a href="{% url 'contact' %}" class="button">Contact Me</a>
   </section>
 </div>
+</body>
+</html>
