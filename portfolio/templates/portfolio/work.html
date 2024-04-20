@@ -1,3 +1,5 @@
+{% load static %}
+
 <div class="work-container">
   <header class="work-header">
     <h1>My Experience and Projects</h1>
@@ -26,6 +28,6 @@
   </section>
   
   <section class="work-contact">
-    <p>Interested in my work or want to collaborate on a project? Please don't hesitate to <a href="/contact">get in touch</a>.</p>
+    <p>Interested in my work or want to collaborate on a project? Please don't hesitate to <a href="{% url 'contact' %}">get in touch</a>.</p>
   </section>
 </div>
